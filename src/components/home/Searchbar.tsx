@@ -2,7 +2,7 @@ import { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { Search, ArrowRight, Loader2 } from 'lucide-react';
-import demo from '../../demo.jpg';
+import demo from '../../demo.jpg.png';
 
 const Searchbar = () => {
   const [username, setUsername] = useState('');
